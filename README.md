@@ -4,13 +4,13 @@ This is a sample code from the main research project on Exponential Power Distri
 
 We will be performing the following operations in our code:-
 
-    Generate a progressive Type-II censored sample with binomial removals from the EPD.
-    Set the values of the hyperparameters in such a manner that the prior distributions non-informative. 
-    Then we will generate sample observations from posterior distributions using Markov Chain Monte Carlo methodology for alpha and lambda - (Metropolis Hastings algorithm in this case).
-    Generarte sample observations for 'p' using standard generation method for first kind beta distribution (i.e. we will use ziggurat algorithm - rbeta() function  in R)
-    We will obtain Bayes Estimates under SELF-loss function.
-    For Bayesian Credible Intervals (BCI), we are computing Equal-tailed Credible Interval (ETCI) and Highest Posterior Density Credible Interval (HPDCI) and we are also calculating their respective widths and Coverage Probabilities (CP)
-    Also, we will be calcuating Average Absolute Bias (AB) and Mean Square Error (MSE) by repeating the steps above.
+    - Generate a progressive Type-II censored sample with binomial removals from the EPD.
+    - Set the values of the hyperparameters in such a manner that the prior distributions non-informative. 
+    - Then we will generate sample observations from posterior distributions using Markov Chain Monte Carlo methodology for alpha and lambda - (Metropolis Hastings algorithm in this case).
+    - Generarte sample observations for 'p' using standard generation method for first kind beta distribution (i.e. we will use ziggurat algorithm - rbeta() function  in R)
+    - We will obtain Bayes Estimates under SELF-loss function.
+    - For Bayesian Credible Intervals (BCI), we are computing Equal-tailed Credible Interval (ETCI) and Highest Posterior Density Credible Interval (HPDCI) and we are also calculating their respective widths and Coverage Probabilities (CP)
+    - Also, we will be calcuating Average Absolute Bias (AB) and Mean Square Error (MSE) by repeating the steps above.
 
 Note:- 
 (1) We will be using mcmc library to perform M-H algorithm and we will be including burn-in as well and maintaining an acceptance sampling rate of 20%
