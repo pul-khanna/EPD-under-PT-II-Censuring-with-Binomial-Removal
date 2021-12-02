@@ -14,5 +14,5 @@ We will be performing the following operations in our code:-
 
 Note:- 
 (1) We will be using mcmc library to perform M-H algorithm and we will be including burn-in as well and maintaining an acceptance sampling rate of 20%
-(2) With gamma priors, conditional Distribution of alpha and lambda are still not in standard form (cannot be solved analytically due to multi-dimensional integration), hence we use Metropolis-Hastings algorithm to generate sammple observations from posterior distributions. 
-(3) With beta priors, conditional distribution of 'p' follows beta first kind distribution (beta is conjugate prior for binomial), hence we can use standard random generation method. Also, here we will choose Jeffreys Prior as our non-informative prior.
+(2) With gamma priors, posterior distribution of alpha and lambda are still not in standard form (cannot be solved analytically due to multi-dimensional integration), hence we will use Metropolis-Hastings algorithm to generate sammple observations from posterior distributions. 
+(3) With beta priors, posterior distribution of 'p'(conditional distribution of 'p' given alpha,lambda and data) follows beta first kind distribution (beta is conjugate prior for binomial), hence we can use standard random generation method. Also, here we will choose Jeffreys Prior as our non-informative prior.
